@@ -1,0 +1,69 @@
+.notify{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+.notify ul li{
+    cursor: pointer;
+}
+.request-list{
+    cursor:pointer;
+}
+.individual-request{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:20px
+}
+.request-body{
+    display:flex;
+    flex-direction:column;
+}
+.closeRequest{
+    align-self:flex-end
+}
+.request-colmun{
+    font-weight:700 !important;
+}
+.request-bolder{
+    font-weight:700;
+}
+.request-header{
+    align-self:center;
+    margin-bottom: 1em;
+}
+.table-header{
+    margin:10px 0 5px 8px
+}
+.individual-request table{
+    width:500px;
+    margin-inline-start: 15px;
+    border-top:1px solid black
+}
+.individual-request table th{
+    padding-block:10px;
+    font-weight: 400;
+}
+.date-input-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.request-date-input{
+    margin:15px 0 10px 10px;
+    width:200px;
+}
+.requestDate{
+    margin:15px 0 0 0
+}
+.order-ld{
+    border-top:3px solid green !important;
+    position: relative;
+    top:10px    
+
+}
+.set-date-btn{
+   
+
+}

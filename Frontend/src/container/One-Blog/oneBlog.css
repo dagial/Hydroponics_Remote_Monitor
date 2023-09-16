@@ -1,0 +1,32 @@
+.oneblog-container{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+.oneblog-img{
+    align-self:center;
+    width:800px;
+    height:400px !important;
+
+}
+.oneblog-body{
+    display:flex;
+    flex-direction:column;
+    padding:3% 10%;
+}
+.oneblog-title{
+    line-height: 1.2em;
+    font-size:3em;
+    text-transform: capitalize;
+    color: #08B739;
+    align-self:center;
+    font-weight: 450;
+    margin-block:15px 25px
+}
+.oneblog-description{
+    line-height:1.7em;
+    padding:5px 20px;
+}
+.oneblog-date{
+    font-weight: 300;
+}

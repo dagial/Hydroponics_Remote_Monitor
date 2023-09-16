@@ -1,0 +1,45 @@
+"""thesisProject URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/4.1/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path,include,re_path
+from hps.views import *
+from rest_framework.routers import DefaultRouter
+from django.conf.urls.static import static
+from django.conf import settings
+
+router=DefaultRouter()
+router.register("blog",BlogView,basename="blog")
+router.register("products",ProductsView,basename="products")
+router.register("order",OrdersView,basename="order")
+router.register("adm",AdminView,basename="adm")
+router.register("faq",FaqView,basename="faq")
+router.register("status",StatusView,basename="faq")
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("auth/",include('djoser.urls')),
+    path("auth/",include("djoser.urls.jwt")),
+    path("auth/",include("djoser.urls.authtoken")),
+    path("",include(router.urls)),
+    path("search/",SearchView.as_view(),name="search"),
+    path("ordertest/",OrderTest.as_view(),name="testorder")
+
+
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

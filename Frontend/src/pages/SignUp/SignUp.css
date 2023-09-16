@@ -1,0 +1,45 @@
+.SignUp{
+    /* background-color: #cbf7cf; */
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 70%;
+    height: 620px;
+    border:1px solid #cbf7cf;
+}
+.SignUp__form{
+    display: flex;
+}
+
+.SignUp__form-title{
+    background-color: #520303;
+    color: #44C769;
+    border: 1px solid;
+    height: 620px;
+    width: 100%;
+}
+.SignUp__form-title img{
+    width: 20%;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+.SignUp__form-title h1{
+    margin-left: 115px;
+}
+.SignUp__form-title-sign-up h1{
+    margin-left: 105px;
+}
+.SignUp__form-fill{
+    margin-top: -40px;
+    margin-left: -300px;
+}
+
+.fbtn{
+    margin-top: 45px;
+}
+input .form_field_errors{
+    border-color:red;
+    background-color:white;
+}
+.non_field_form_errors{
+    margin-top:15px
+}

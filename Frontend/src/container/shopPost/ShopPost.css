@@ -1,0 +1,13 @@
+form{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 350px;
+}
+form label{
+    padding-top: 20px;
+    font-weight: 700%;
+}
+form button{
+    margin-top: 20px;
+    width: 25%;
+}

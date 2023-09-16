@@ -1,0 +1,26 @@
+.container img{
+    width: 100%;
+}
+.shop__detail-desc h2{
+    justify-content: center;
+    color: #08B739;
+}
+.shop__detail-title h1{
+    justify-content: center;
+    margin-left: 80px;
+    color: #08B739;
+    padding-bottom: 20px;
+}
+.shop__detail-desc span,
+.shop__detail-desc a{
+    margin-right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ;
+}
+.shop__detail-desc span:hover,
+.shop__detail-desc a:hover{
+    opacity: 1;
+}

@@ -1,0 +1,57 @@
+.hydroponic__Header{
+    display: flex;
+}
+.hydroponic__Header-content{
+    margin-left: 90px;
+    padding-top: 110px;
+    width: 80%;
+    
+}
+.hydroponic__Header-content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    
+    font-size: 48px;
+    line-height: 58px;
+    color: #08B739;
+}
+.hydroponic__Header-content p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    line-height: 175%;
+    opacity: 0.9;
+}
+.hydroponic__Header-picture{
+    margin-right: 300px;
+}
+.hydroponic__Header-picture img{
+    width: 171.2%;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 50px;
+   
+}
+.hydroponic__header-content_search{
+    padding-top: 20px;
+}
+.hydroponic__header-content_search input{
+    width: 75%;
+    height: 40px;
+    border-radius: 5px;   
+}
+.hydroponic__search{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.hydroponic__search-result{
+    margin-left: 100px;
+}
+
+
+.search-c{
+    cursor:pointer;
+    background: white !important;
+}

@@ -1,0 +1,66 @@
+.SignIn{
+    background-color: #ffffff;
+    border: 1px solid #bef5c3;
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 70%;
+    height: 500px; 
+}
+.SignIn__form{
+    display: flex;
+}
+
+.SignIn__form-title img{
+    width: 20%;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+.SignIn__form-title h1{
+    margin-left: 115px;
+}
+.SignIn__form-title-sign-up h1{
+    margin-left: 105px;
+}
+.SignIn__form-title{
+    background-color: #520303;
+    opacity:.85;
+    color: white;
+    border: 1px solid;
+    height: 500px;
+    width: 60%;
+    cursor:pointer;
+}
+.SignIn__form-fill{
+    margin-top: -40px;
+    margin-left: -300px;
+}
+.SignIn__form-fill{
+    margin-top: 55px;
+    padding-left: 50px;
+}
+
+.SignIn__form-fill form input{
+    width: 80%;
+}
+.lbtn{
+    margin-top: 25px;
+    width: 30%;
+
+}
+
+.btn-loading{
+
+    opacity:.8;
+}
+
+.login-error{
+    width:100%
+}
+.signin-small{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.isLoading{
+    align-self:center
+}

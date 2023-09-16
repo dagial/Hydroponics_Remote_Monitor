@@ -1,0 +1,23 @@
+.Todo-app{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.input-todo{
+    width: 50%;
+    margin-top: 10px;
+    height: 50%;
+}
+.todo-list{
+    margin-left: 110px;
+}
+.todo-list span{
+    margin-left: 30px;
+}
+.todo-check input{
+    margin-right: 30px;
+}
+.tbtn{
+   margin-top: -4px; 
+   cursor: pointer;
+   font-size: xx-large;
+}

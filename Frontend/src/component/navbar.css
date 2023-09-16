@@ -1,0 +1,173 @@
+.hydroponic__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+
+}
+.hydroponic__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hydroponic__navbar-links_logo img{
+    
+    width: 70px;
+    height: 60px;
+    left: 104px;
+    top: 20px;
+    transform: rotate(-0.57deg);
+}
+.hydroponic__navbar-links_logo h1{
+    position: absolute;
+    display: flex;
+    width: 117px;
+    height: 39px;
+    left: 175px;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #08B739;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hydroponic__navbar-links_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 450px;
+    height: 39px;
+    left: 30%;
+    top: 50px;
+    
+}
+.hydroponic__navbar-links_container li{
+    display: inline;
+    padding-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hydroponic__navbar-links_container li a,
+.hydroponic__navbar-menu_container-links li a {
+    text-decoration: none;
+    font-style: arial;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #0EBB0B;
+    cursor: pointer;
+}
+.hydroponic__navbar-menu_container-links li{
+    display: flex;
+}
+.hydroponic__navbar-sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12%;
+}
+.hydroponic__navbar-sign button{
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background: #08B739;
+    border-radius: 10px;
+    color: #ffff;
+    font-weight: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: none;
+}
+.hydroponic__navbar-sign button a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hydroponic__navbar-sign p a{
+    text-decoration: none;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000;
+    cursor: pointer;
+}
+.hydroponic__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.hydroponic__navbar-menu svg{
+    cursor: pointer;
+}
+.hydroponic__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background-color: #F6FFF8;
+    position: absolute;
+    padding: 2rem;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border: 5px;
+}
+.hydroponic__navbar-menu_container p{
+    margin: 1rem 0;
+}
+.hydroponic__navbar-menu_container-links-sign{
+    display: none;
+}
+
+@media screen and (max-width: 1150px){
+    .hydroponic__navbar-links_container{
+        display: none;
+    }
+    .hydroponic__navbar-menu{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 750px){
+    .hydroponic__navbar{
+        padding: 2rem 4rem;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    .hydroponic__navbar{
+        padding: 2rem;
+    }
+    .hydroponic__navbar-sign{
+        display: none;
+    }
+    .hydroponic__navbar-menu_container{
+        top: 20px;
+    }
+    .hydroponic__navbar-menu_container-links-sign{
+        display: block;
+    }
+    
+}
+.error-class{
+    display:flex;
+    justify-content: center;
+}
+
+
+.logout-class{
+    font-weight:500;
+    cursor: pointer;
+    font-size: large;
+    padding-top: 8px;
+}

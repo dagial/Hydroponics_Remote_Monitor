@@ -1,0 +1,28 @@
+.detail a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.85;
+    transition: 0.2s;
+}
+.detail a:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+.add{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.delete-product{
+    display:flex;
+    justify-content:flex-end;
+    color: black;
+    font-size:1.4em;
+    margin-bottom:-3px;
+
+}
+.cm{
+    margin-top:5px !important;
+}
+.pt{
+    text-transform: capitalize;
+}

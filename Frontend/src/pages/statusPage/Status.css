@@ -1,0 +1,46 @@
+.status-container{
+    display:flex;
+    flex-direction:column;
+   
+}
+.card-stat-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    align-self:center;
+}
+.card-stat-img img{
+    width: 30%;
+}
+.loading-ptr{
+    border-top:3px solid rgb(100, 102, 100) !important;
+}
+.card-stat{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+.param-select{
+    align-self:center;
+    width:400px;
+    padding:3px 6px;
+    border:1px solid black;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+}
+.param-select option{
+    opacity:.8;
+    padding:3px;
+    text-transform: capitalize;
+   
+}
+.param-select:focus{
+    outline:none;
+    border:1px solid green;
+    border-radius: 10px;
+}
+.loading-span{
+    position:relative;
+    left:70%
+}

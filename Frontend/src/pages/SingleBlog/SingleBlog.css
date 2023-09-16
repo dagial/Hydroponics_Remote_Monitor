@@ -1,0 +1,36 @@
+.blog__detail{
+  margin-top: 50px;
+}
+.singleBlog-container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.blog__detail-title h1{
+    justify-content: center;
+    margin-left: 80px;
+    color: #08B739;
+    padding-bottom: 20px;
+}
+.blog__detail-desc h2{
+    justify-content: center;
+    color: #08B739;
+    
+}
+.blog__detail-desc span,
+.blog__detail-desc a{
+    margin-right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ;
+}
+.blog__detail-desc span:hover,
+.blog__detail-desc a:hover{
+    opacity: 1;
+}
+
+.blog__detail-desc {
+    align-self:center;
+}

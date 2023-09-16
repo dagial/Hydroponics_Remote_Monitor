@@ -1,0 +1,46 @@
+import React, {useState} from 'react'
+import './BlogPost.css'
+
+const BlogPost = () => {
+    const [news, setNews] = useState({
+        title: '',
+        description: '',
+    })
+
+    function onChangeHandlers(e){
+        const { name, value } = e.target;
+        setNews((prevNews) => ({...prevNews, [name]: value}))
+      }
+    
+      function handleSubmit (e){
+        e.preventDefault();
+        //send data to server
+      }
+
+  return (
+    <div>
+        <form onSubmit={handleSubmit}>
+            <div class="form-group">
+                <label><h5>Title</h5></label>
+                <input type="text" name="title" value={news.title} onChange={onChangeHandlers} class="form-control"  placeholder="Name of product" />
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Description</h5></label>
+                <input type="text" name="description" value={news.description} onChange={onChangeHandlers} class="form-control" placeholder="Description" />
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Image</h5></label>
+                <input type="file" class="form-control"/>
+            </div>
+
+            <button type="submit" class="btn btn-success">Post</button>
+
+            
+        </form>
+    </div>
+  )
+}
+
+export default BlogPost

@@ -1,0 +1,57 @@
+.hydroponic__about{
+    padding-top: 50px;
+}
+.hydroponic__about-content{
+    justify-content: center;
+    margin-left: 600px;
+    color: #08B739;
+    border-bottom: 2px solid #08B739;
+    width: 14%;
+    
+}
+
+.hydroponic__about-list{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 35px;
+}
+ 
+.hydroponic__about-list_Reliable img, 
+.hydroponic__about-list_fast img, 
+.hydroponic__about-list_Trustworthy img   {
+    width: 80%;
+    height: 80%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+.hydroponic__about-list_Reliable h3
+  {
+    color: #08B739;
+    padding-left: 100px;
+    padding-top: 10px;
+
+}
+.hydroponic__about-list_fast h3{
+    color: #08B739;
+    padding-left: 127px;
+    padding-top: 10px;
+}
+.hydroponic__about-list_Trustworthy h3{
+    color: #08B739;
+    padding-left: 85px;
+    padding-top: 10px;
+}
+.hydroponic__about-list_Reliable,
+.hydroponic__about-list_fast,
+.hydroponic__about-list_Trustworthy
+{
+    border: none;
+    background: #F7FFF6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    width: 300px;
+    height: 290px;
+    margin-left: 70px;
+}
+

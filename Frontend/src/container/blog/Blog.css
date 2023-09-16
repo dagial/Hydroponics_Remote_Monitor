@@ -1,0 +1,14 @@
+.blogCard__content{
+    justify-content: center;
+    margin-left: 550px;
+    color: #08B739;
+    border-bottom: 2px solid #08B739;
+    width: 6%;
+    padding-top: 50px;
+}
+.blogHome{
+    margin-left: 100px;
+}
+.blogCard{
+    width: 1200px;
+}

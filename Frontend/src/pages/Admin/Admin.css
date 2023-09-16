@@ -1,0 +1,35 @@
+.header-admin{
+    margin-left: 550px;
+    margin-top: -500px;
+}
+.header-admin img{
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+.header-admin h1{
+    color: #08B739;
+}
+.bell{
+    margin-left: 1200px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+.bell:active{
+    color: red;
+}
+.notification{
+    display: flex;
+    margin-left: 450px;
+}
+.notification h2{
+    padding-right: 490px;
+    color: #08B739;
+}
+.notification p{
+    cursor: pointer;
+}
+.admin-success{
+    position:relative;
+    top:-100px;
+
+}

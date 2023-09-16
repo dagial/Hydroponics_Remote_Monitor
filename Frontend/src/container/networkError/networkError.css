@@ -1,0 +1,7 @@
+.network-error{
+    border:1px solid red;
+    border-radius:10px;
+    color:red;
+    width:fit-content;
+    padding:3px 20px;
+}
